@@ -1,0 +1,346 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'montserrat' , sans-serif;
+    background-color: black;
+}
+.main-body{
+    display: flex;
+}
+.main-body div{
+    border-radius: 10px;
+}
+.search-bar{
+    height: 100vh;
+    width: 385px;
+    background-color: black;
+    color: white;
+}
+.main-content{
+    height: 100vh;
+    background-color: green;
+    flex:1;
+    overflow: scroll;
+    margin-top: 8px;
+    background-color: #121212;
+}
+.song-player{
+    height: 100vh;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    
+}
+.nav{
+    height: 108px;
+    width: 345px;
+    background-color: #121212;
+    position: relative;
+    top: 8px;
+    left: 5px;
+    padding: 8px 12px;
+}
+.nav a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navoption{
+    line-height: 45px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+.navoption a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.navoption:hover{
+    opacity: 1;
+}
+.next{
+    background-color:#121212;
+    margin: 16px 8px;
+    height: 500px;
+}
+#img1{
+    height: 17px;
+    width: 17px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.library{
+    display: flex;
+    justify-content: space-between;
+}
+.lib-name{
+    opacity: 0.7;
+}
+.lib-name a{
+    position: relative;
+    left: 33px;
+    top: 9px;
+}
+.icons i{
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    right: 25px;
+    bottom:7px;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.lib-name:hover{
+    opacity: 1;
+}
+.card1{
+    background-color: rgb(81, 79, 79);
+    margin-left: 10px;
+    width: 50vh;
+    height: 165px;
+    position: relative;
+    bottom: 30px;
+}
+.card1 h3{
+    position: relative;
+    top: 30px;
+    left: 20px
+}
+.card1 p{
+    position: relative;
+    top: 30px;
+    left: 20px
+}
+.card1 button{
+    height: 30px;
+    width: 115px;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+    top: 30px;
+    left: 20px
+}
+.card2{
+    background-color: rgb(81, 79, 79);
+    margin-left: 10px;
+    width: 50vh;
+    height: 165px;
+    position: relative;
+    bottom: 40px;
+}
+.card2 h3{
+    position: relative;
+    top: 30px;
+    left: 20px
+}
+.card2 p{
+    position: relative;
+    top: 30px;
+    left: 20px
+}
+.card2 button{
+    height: 30px;
+    width: 130px;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+    top: 30px;
+    left: 20px
+}
+footer{
+    margin-top: 0px;
+    color: white;
+    width: 1125px;
+    height: 70px;
+    position: fixed;
+}
+footer img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+footer button{
+    position: relative;
+    top: 20px;
+    left: 800px;
+    margin: 2px;
+}
+#button1{
+    background-color: white;
+    height: 28px;
+    border-radius: 20px;
+    border: none;
+}
+#button2{
+    background-color: black;
+    color: white;
+    height: 28px;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+}
+footer button i{
+    width: 12px;
+    background-color: white;
+    border: solid;
+    color: black;
+    border-radius: 50%;
+}
+footer .fa-regular{
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    left: 810px;
+}
+main{
+    color: white;
+}
+.top h2{
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.top .card3{
+    width: 220px;
+    height: 330px;
+    background-color: rgb(81, 79, 79);
+    margin-left: 50px;
+    margin-top: 40px;
+}
+main img{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+}
+main .card3 h3,p{
+    margin-left: 20px;
+}
+.middle1{
+    display: flex;
+}
+main #top-searches{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.card4{
+    width: 220px;
+    height: 330px;
+    background-color: rgb(81, 79, 79);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.card4 h3{
+    margin-left: 20px;
+}
+.bottom{
+    display: flex;
+}
+#Featured-Charts{
+    margin-left: 20px;
+}
+.album{
+    width: 25%;
+    color: white;
+}
+.album #img1{
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+.album h3{
+    position: relative;
+    left: 110px;
+    bottom: 70px;
+}
+.album p{
+    position: relative;
+    left: 90px;
+    bottom: 80px;
+}
+.album #img2{
+    position: relative;
+    left: 250px;
+    bottom: 145px;
+}
+.album #img3{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 255px;
+    bottom: 143px;
+}
+.range{
+    position: relative;
+    top: 115px;
+}
+.range img{
+    width: 50%;
+    position: relative;
+    bottom: 330px;
+    left: 630px;
+}
+.range input{
+    width: 400px;
+    position: relative;
+    bottom: 250px;
+    left: 570px;
+}
+.range img{
+    height: 20px;
+    width: 20px;
+    margin: 15px;
+}
+#play-icon{
+    height: 30px;
+    width: 30px;
+}
+.current-time{
+    position: relative;
+    bottom: 355px;
+    left: 530px;
+}
+.total-time{
+    color: white;
+    position: relative;
+    bottom: 396px;
+    left: 980px;
+}
+/* .controls{
+    position: relative;
+    bottom: 360px;
+    left: 1180px;
+}
+.controls img{
+    margin: 8px;
+    height: 30px;
+    width: 30px;
+}
+.controls #img4{
+    height: 20px;
+    width: 20px;
+}
+.controls #img1{
+    position: relative;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+} */
+main #line{
+    height: 500px;
+    width: 100vh;
+}
+.box-shadow{
+    border-radius: 0px;
+    margin: 0px 30px;
+    height: 230px;
+    width: 1060px;
+    box-shadow: 0px 1px 0px gray;
+}
